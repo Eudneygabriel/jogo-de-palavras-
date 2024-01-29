@@ -1,0 +1,114 @@
+body {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+#quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+#options-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.option {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#next-button {
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#feedback {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.option {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#next-button {
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#feedback {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Adicione as seguintes regras para as cores de fundo */
+.option:hover {
+  background-color: #f0f0f0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: #f0f0f0; /* Cor de fundo para o corpo da página */
+}
+
+#quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #bbe31d; /* Cor de fundo castanho para o contêiner do quiz */
+}
+
+#options-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.option {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #2196f3; /* Cor de fundo azul para as opções */
+  color: #fff; /* Cor do texto branco para melhor contraste */
+  border: none;
+  border-radius: 4px;
+}
+
+#next-button {
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #ff9800; /* Cor de fundo laranja para o botão de próxima pergunta */
+  color: #fff; /* Cor do texto branco para melhor contraste */
+  border: none;
+  border-radius: 4px;
+}
+
+#feedback {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.option:hover {
+  background-color: #1565c0; /* Cor mais escura quando hover nas opções */
+}
+
+#quiz-container h2 {
+  color: #000; /* Cor do texto preto para as perguntas */
+}
