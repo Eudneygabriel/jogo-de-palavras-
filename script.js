@@ -1,79 +1,72 @@
 const questions = [
   {
-    question:
-      "Qual é uma tecnologia comum de comunicação em redes de computadores que utiliza sinais elétricos para transmitir dados?",
-    options: ["a) Bluetooth", "b) Ethernet", "c) 4G", "d) GPS"],
-    correctAnswer: "b) Ethernet",
+    question: "Qual dos seguintes não é um tipo de rede de computadores?",
+    options: ["LAN", "WAN", "VPM", "USB"],
+    correctAnswer: "USB",
   },
 ];
 
 questions.push({
-  question: "O que caracteriza uma rede social online?",
+  question: "Qual é o principal objetivo de uma rede LAN?",
   options: [
-    "a) Ligações metálicas entre usuários",
-    "b) Distribuição de energia virtual",
-    "c) Conexões interpessoais online",
-    "d) Ligações covalentes de dados",
+    " Conectar computadores em uma cidade inteira",
+    " Conectar computadores em uma área geográfica limitada",
+    "  Conectar computadores em diferentes países",
+    "  Conectar computadores em todo o mundo",
   ],
-  correctAnswer: "c) Conexões interpessoais online",
+  correctAnswer: " Conectar computadores em uma área geográfica limitada",
 });
 
 questions.push({
-  question: "Quais são os tipos principais de ligações químicas?",
+  question: "O que significa WAN?",
   options: [
-    "a) Ligações Bluetooth, Wi-Fi e 4G",
-    "b) Ligações metálicas, iônicas e covalentes",
-    "c) Ligações orgânicas, inorgânicas e metálicas",
-    "d) Ligações LAN, MAN e WAN",
+    " Wide Area Network",
+    " Wireless Area Network",
+    " Wired Area Network",
+    " Worldwide Area Network",
   ],
-  correctAnswer: "b) Ligações metálicas, iônicas e covalentes",
+  correctAnswer: ":  Wide Area Network",
 });
 
 questions.push({
-  question: "Em que consiste uma rede biológica?",
+  question: "Qual é a principal diferença entre uma rede LAN e uma WAN?",
   options: [
-    "a) Distribuição de energia em organismos",
-    "b) Ligações químicas em células animais",
-    "c) Conexões neurais em um cérebro",
-    "d) Ligações sociais entre espécies",
+    " O tipo de cabos utilizados",
+    "  A velocidade de conexão",
+    " A área geográfica coberta",
+    "  O número de dispositivos conectados",
   ],
-  correctAnswer: "c) Conexões neurais em um cérebro",
-});
-
-questions.push({
-  question: "Quais são as topologias comuns em redes de computadores?",
-  options: [
-    "a) Topologia orgânica, topologia inorgânica, topologia digital",
-    "b) Topologia de estrela, topologia de anel, topologia de malha",
-    "c) Topologia urbana, topologia rural, topologia metropolitana",
-    "d) Topologia LAN, topologia WAN, topologia MAN",
-  ],
-  correctAnswer:
-    "b) Topologia de estrela, topologia de anel, topologia de malha",
+  correctAnswer: "  A área geográfica coberta",
 });
 
 questions.push({
   question:
-    "Em qual área a importância das ligações sociais na saúde mental é destacada?",
-  options: [
-    "a) Engenharia elétrica",
-    "b) Medicina",
-    "c) Agricultura",
-    "d) Física quântica",
-  ],
-  correctAnswer: "b) Medicina",
+    "Qual das seguintes não é uma tecnologia de ligação de redes sem fio?",
+  options: [" Wi-Fi ", " Bluetooth", "  Ethernet", " NFC"],
+  correctAnswer: " Ethernet",
 });
 
 questions.push({
-  question:
-    "O que é fundamental para garantir a segurança em redes de computadores?",
+  question: "O que é uma VPN?",
   options: [
-    "a) Ligações químicas",
-    "b) Criptografia e proteção de dados",
-    "c) Ligações metálicas",
-    "d) Distribuição de energia",
+    "  Virtual Private Network",
+    "  Very Personal Network",
+    "  Visual Private Network",
+    " Virtual Public Network",
   ],
-  correctAnswer: "b) Criptografia e proteção de dados",
+  correctAnswer: "Virtual Private Network",
+});
+questions.push({
+  question:
+    "Qual é a principal vantagem de uma conexão de fibra óptica em comparação com uma conexão de cabo de cobre?",
+  options: [
+    " Maior velocidade de transmissão ",
+
+    "  Menor custo de instalação ",
+    "  Maior resistência a interferências eletromagnéticas ",
+    "  Menor largura de banda ",
+  ],
+  correctAnswer: "  Maior resistência a interferências eletromagnéticas",
 });
 
 let currentQuestion = 0;
